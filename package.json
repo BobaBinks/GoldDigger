@@ -1,0 +1,25 @@
+{
+  "name": "golddigger",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/BobaBinks/GoldDigger#readme",
+  "bugs": {
+    "url": "https://github.com/BobaBinks/GoldDigger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobaBinks/GoldDigger.git"
+  },
+  "license": "ISC",
+  "author": "BobaBinks",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
