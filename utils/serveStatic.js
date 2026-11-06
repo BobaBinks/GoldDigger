@@ -7,7 +7,6 @@ export const serveStatic = async (req, res, baseDir) => {
         const publicDir = path.join(baseDir, 'public')
 
         let resource = req.url
-        console.log("resource: ", resource)
         switch(req.url){
             case '/':
                 resource = 'index.html'
